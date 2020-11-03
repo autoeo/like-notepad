@@ -1,5 +1,8 @@
 "# looks like NOTEPAD" 
 
+- GIT 
+	: https://github.com/autoeo/like-notepad.git
+
 - How to run 
 	: The program file is located In /bin or /binD named ColorEdit.exe
 
