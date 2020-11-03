@@ -43,7 +43,7 @@ RSC=rc.exe
 # PROP Ignore_Export_Lib 0
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Yu"stdafx.h" /FD /c
-# ADD CPP /nologo /MT /W3 /GX /O2 /I "../00_CommonSrc/21_Consrols/ColorizeEdit" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Yu"stdafx.h" /FD /c
+# ADD CPP /nologo /MT /W3 /GX /O2 /I "ColorizeEdit" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Yu"stdafx.h" /FD /c
 # ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /win32
 # ADD MTL /nologo /D "NDEBUG" /mktyplib203 /win32
 # ADD BASE RSC /l 0x412 /d "NDEBUG" /d "_AFXDLL"
@@ -69,7 +69,7 @@ LINK32=link.exe
 # PROP Ignore_Export_Lib 0
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Yu"stdafx.h" /FD /GZ /c
-# ADD CPP /nologo /MTd /W3 /Gm /GX /ZI /Od /I "../00_CommonSrc/21_Consrols/ColorizeEdit" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR /Yu"stdafx.h" /FD /GZ /c
+# ADD CPP /nologo /MTd /W3 /Gm /GX /ZI /Od /I "ColorizeEdit" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR /Yu"stdafx.h" /FD /GZ /c
 # ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD BASE RSC /l 0x412 /d "_DEBUG" /d "_AFXDLL"
@@ -149,79 +149,79 @@ SOURCE=.\res\debug_view_icons.bmp
 # PROP Default_Filter ""
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ColorableEdit.cpp
+SOURCE=.\ColorizeEdit\ColorableEdit.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ColorableEdit.h
+SOURCE=.\ColorizeEdit\ColorableEdit.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\Defines_ColorEdit.h
+SOURCE=.\ColorizeEdit\Defines_ColorEdit.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\Defines_KeyWord.h
+SOURCE=.\ColorizeEdit\Defines_KeyWord.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\IScriptTextColorBase.cpp
+SOURCE=.\ColorizeEdit\IScriptTextColorBase.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\IScriptTextColorBase.h
+SOURCE=.\ColorizeEdit\IScriptTextColorBase.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ScriptText.cpp
+SOURCE=.\ColorizeEdit\ScriptText.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ScriptText.h
+SOURCE=.\ColorizeEdit\ScriptText.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ScriptTextColor.h
+SOURCE=.\ColorizeEdit\ScriptTextColor.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ScriptTextColor_CPP.cpp
+SOURCE=.\ColorizeEdit\ScriptTextColor_CPP.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ScriptTextColor_CPP.h
+SOURCE=.\ColorizeEdit\ScriptTextColor_CPP.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ScriptTextColor_UBCT.cpp
+SOURCE=.\ColorizeEdit\ScriptTextColor_UBCT.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ScriptTextColor_UBCT.h
+SOURCE=.\ColorizeEdit\ScriptTextColor_UBCT.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ScriptTextLine.cpp
+SOURCE=.\ColorizeEdit\ScriptTextLine.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ScriptTextLine.h
+SOURCE=.\ColorizeEdit\ScriptTextLine.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ScriptTextWord.cpp
+SOURCE=.\ColorizeEdit\ScriptTextWord.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\ScriptTextWord.h
+SOURCE=.\ColorizeEdit\ScriptTextWord.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\StringUtils.cpp
+SOURCE=.\ColorizeEdit\StringUtils.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\00_CommonSrc\21_Consrols\ColorizeEdit\StringUtils.h
+SOURCE=.\ColorizeEdit\StringUtils.h
 # End Source File
 # End Group
 # Begin Source File
